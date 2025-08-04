@@ -22,7 +22,7 @@ export const Features: React.FC = () => {
     const [ref, inView] = useInView<HTMLDivElement>({ threshold: 0.1 })
 
     return(
-    <section className="full-container py-5 bg-purple-100 px-1 sm:px-1.5 md:py-7" ref={ref}>
+    <section className="full-container py-4 sm:py-5 bg-purple-100 px-1 sm:px-1.5 md:py-7" ref={ref}>
         <div className="flex flex-col items-center">
             <p className="border border-orange-300 inline-block text-sm px-1 rounded-full bg-orange-200">Features</p>
             <h1 className={`${inView ? 'slide-in' : ''} text-center text-3xl md:text-4xl font-semibold my-1`}>Why choose us</h1>
