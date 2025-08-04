@@ -5,7 +5,7 @@ import avatar1 from '../assets/icons/disk.webp'
 import avatar3 from '../assets/icons/lock.webp'
 
 export const SocialProof: React.FC = () => (
-  <div className="w-max mx-auto flex items-center bg-white shadow-md rounded-full px-1 py-0.5 mt-3">
+  <div className="w-max mx-auto flex items-center bg-white shadow-md rounded-full px-1 py-0.5 mt-4 sm:mt-3">
     <div className="flex -space-x-2">
       <img
         src={avatar1}
