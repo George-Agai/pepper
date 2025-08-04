@@ -4,7 +4,7 @@ import { Button } from './button';
 import { SocialProof } from './socialproof';
 
 export const Hero: React.FC = () => (
-    <section className="full-container bg-cover bg-center text-center pb-12 bg-purple-200" style={{ backgroundImage: `url(${heroBg})` }}>
+    <section className="full-container bg-cover bg-center text-center pb-10 bg-purple-200" style={{ backgroundImage: `url(${heroBg})` }}>
         <Header />
         <SocialProof/>
         <h1 className="slide-in text-5xl mt-4 md:text-6xl font-bold mb-1">
