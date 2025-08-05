@@ -7,7 +7,7 @@ export const Freedom: React.FC = () => {
             <div className="absolute inset-0 backdrop-blur-sm bg-white/10 z-0"></div>
 
             <div className="relative z-10 mb-1">
-                <p className="text-2xl font-bold text-center md:text-3xl">Send and spend freely—no borders, no barriers, just seamless freedom.</p>
+                <p className="text-2xl font-bold text-center md:text-3xl">Take control of your crypto today—download the app to send, test, build and grow from one wallet.</p>
             </div>
             <Button/>
         </section>
