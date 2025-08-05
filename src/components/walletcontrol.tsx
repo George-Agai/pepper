@@ -20,13 +20,13 @@ const features: Feature[] = [
     },
     {
         title: 'Immutable audit trail',
-        description: 'All activity is logged on-chain for total transparency.',
+        description: 'All transaction activity is logged on-chain for total transparency.',
         icon: Chart,
         bgColor: 'bg-yellow-300',
     },
     {
         title: 'Google recovery',
-        description: 'Restore your wallet instantly via your Google account.',
+        description: 'Restore your wallet instantly via Google login or biometric fallback.',
         icon: Cloud,
         bgColor: 'bg-pink-300',
     },
@@ -43,7 +43,7 @@ export const SecuritySection: React.FC = () => {
                     Absolute control, iron-clad security
                 </h2>
                 <p className={`text-gray-600 mb-4 md:mb-6 ${inView ? 'slide-in' : ''}`}>
-                    Your keys, your rules—every transaction is in your hands.
+                    Your keys, your assets—every transaction is in your hands.
                 </p>
             </div>
 
