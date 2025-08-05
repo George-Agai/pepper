@@ -25,8 +25,8 @@ export const Header: React.FC = () => {
           md:static md:translate-x-0 md:flex-row md:bg-transparent md:backdrop-blur-0 md:p-0 md:space-y-0 md:flex md:items-center
         `}
       >
-        <a href="#features" className="block py-1 px-2 hover:text-blue-600">Features</a>
-        <a href="#pricing"  className="block py-1 px-2 hover:text-blue-600">Pricing</a>
+        <a href="#features" className="block py-1 px-2 hover:text-blue-600">Mini Apps</a>
+        <a href="#pricing"  className="block py-1 px-2 hover:text-blue-600">Documentation</a>
         <a href="#contact"  className="block py-1 px-2 hover:text-blue-600">Contact</a>
       </nav>
     </header>

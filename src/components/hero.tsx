@@ -6,13 +6,13 @@ import { SocialProof } from './socialproof';
 export const Hero: React.FC = () => (
     <section className="full-container bg-cover bg-center text-center pb-10 bg-purple-200" style={{ backgroundImage: `url(${heroBg})` }}>
         <Header />
-        <SocialProof/>
+        <SocialProof />
         <h1 className="slide-in text-5xl mt-4 md:text-6xl font-bold mb-1">
-            Send money instantly⚡️
+            Control Your Crypto⚡️
         </h1>
-        <p className="slide-in text-lg md:text-xl mb-1">
-            Fast, secure and low-cost payments wherever you are.
+        <p className="slide-in text-lg md:text-xl mb-1 mx-1">
+            Send, spend, build and secure your crypto.
         </p>
-        <Button/>
+        <Button />
     </section>
 );
