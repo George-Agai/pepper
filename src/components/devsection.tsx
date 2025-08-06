@@ -1,5 +1,4 @@
 import { useInView } from '../hooks/useInView'
-import { Button } from './button'
 import laptop from '../assets/icons/laptop.png'
 import terminal from '../assets/icons/terminal.png'
 import puzzle from '../assets/icons/puzzle.webp'
@@ -65,7 +64,9 @@ export const DevSection: React.FC = () => {
             </div>
 
             <div className='my-container flex align-center justify-center pt-2'>
-                <Button />
+                <button className="relative z-10 px-2.5 py-1 font-semibold cursor-pointer border border-blue-500 hover:bg-blue-500 hover:text-white rounded-2xl bg-transparent text-blue-600 transition">
+                    View Documentation
+                </button>
             </div>
         </section>
     )
